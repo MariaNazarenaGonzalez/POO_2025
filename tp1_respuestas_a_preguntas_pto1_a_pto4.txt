@@ -1,0 +1,35 @@
+tp1 respuestas a las preguntas en los puntos
+
+1 Hay dos objetos involucrados, Lista y Nodo
+
+2 La interfaz debe ser la misma para Lista, no así para Nodo dado que requiere una referencia a un segundo Nodo.
+
+3 La interfaz a implementar es:
+  es_vacia() //Muestra si la Pila es vacía.
+  longitud() //Devuelve la longitud de la Pila.
+  apilar() //Apila un elemento en el tope de la Pila.
+  desapilar() //Quita el elemento del tope de la Pila
+  recuperarTope () //Devuelve el elemento guardado al tope de la pila sin desapilarlo
+  mostrar() //Muestra la pila (implementado como toString, hace uso de la conexión entre Nodos que mantiene unida a la pila).
+
+Nota: ningún atributo es parte de la interfaz porque estos deben ser privados para mantener el encapsulamiento.
+Dos objetos están involucrados en la solución, Pila y Nodo.
+La responsabilidad de cada objeto está detallada en los métodos presentes en la implementación. 
+En resumidas cuentas, Nodo se encarga de guardar elementos y referenciar a otro Nodo y Pila se encarga de guardar una referencia 
+a el Nodo tope y regular las interacciones entre los Nodos y el exterior, de manera tal que nadie meta alí mano indebida.
+
+4 La interfaz a implementar es:
+  es_vacia() //Muestra si la Cola es vacía.
+  longitud() //Devuelve la longitud de la Cola.
+  encolar() //Encola un elemento en el inicio de la Cola.
+  desencolar() //Quita el elemento de la salida de la Cola.
+  recuperarSalida () //Devuelve el elemento guardado al final de la cola sin desencolarlo.
+  mostrar() //Muestra la cola (implementado como toString, hace uso de la conexión entre Nodos que mantiene unida a la pila).
+
+Nota: ningún atributo es parte de la interfaz porque estos deben ser privados para mantener el encapsulamiento.
+Dos objetos están involucrados en la solución, Cola y Nodo.
+La responsabilidad de cada objeto está detallada en los métodos presentes en la implementación. 
+En resumidas cuentas, Nodo se encarga de guardar elementos y referenciar a otro Nodo y Cola se encarga de guardar una referencia a 
+el Nodo tope y regular las interacciones entre los Nodos y el exterior, de manera tal que nadie meta alí mano indebida.
+
+
